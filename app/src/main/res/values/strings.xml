@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Super Helper</string>
+    <string name="main_menu">Supermarket Helper</string>
+    <string name="setting">Setting</string>
+    <string name="recommend">Recommend</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="scan">Barcode Scan</string>
+
+    <string name="stockin">Stock In</string>
+    <string name="stockout">Stock Out</string>
+    <string name="sendMsg">Download supermarket helper - http://www.richyan.com/android/supermarket.apk</string>
+    <string name="share">Share</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+
+    <string name="barcode">Barcode</string>
+    <string name="mark">Mark</string>
+    <string name="product">Product</string>
+    <string name="reader">Reader</string>
+    <string name="tag">Tag</string>
+    <string name="measure">00</string>
+    <string name="unit">unit</string>
+    <string name="price">Price</string>
+    <string name="purchaseDate">Purchase Date</string>
+    <string name="purchaseNumber">Purchase Number</string>
+    <string name="department">Department</string>
+    <string name="confirm">Confirm</string>
+
+
+    <string-array name="units">
+        <item>kg</item>
+        <item>g</item>
+        <item>lb</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>mm</item>
+        <item>inch</item>
+        <item>ml</item>
+        <item>L</item>
+    </string-array>
+</resources>

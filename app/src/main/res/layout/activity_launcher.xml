@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.richyan.android.textscanner.LauncherActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        app:popupTheme="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+    </android.support.v7.widget.Toolbar>
+    <Button
+        android:id="@+id/stockinBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:text="@string/stockin"
+        android:textColor="@android:color/white"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+    <Button
+        android:id="@+id/stockoutBtn"
+        android:text="@string/stockout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:textColor="@android:color/white"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        />
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:text="@string/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin" />
+</LinearLayout>
